@@ -12,7 +12,7 @@ import sounddevice
 import google.generativeai as genai
 
 # setting API key for gemini
-genai.configure(api_key = 'AIzaSyCmWYFxvxRpJ3HClFJ-vbRb1Ye_osah8MI')
+genai.configure(api_key = 'API_KEY')
 
 # select the specific AI model to use
 gemini_model = genai.GenerativeModel('gemini-1.5-pro')
